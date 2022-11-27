@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+  <body class="bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
+    <div class="container flex justify-center pt-20">
+      <form
+        class="py-5 px-10 md:w-[55vw] lg:w-[40vw] bg-white rounded-md shadow-2xl shadow-slate-900"
+      >
+        <div class="text-2xl font-bold text-center pb-4 text-blue-700">
+          Login
+        </div>
+
+        <div class="pb-4">
+          <input
+            type="email"
+            required
+            class="bg-gray-50 border border-indigo-200 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            placeholder="Email"
+          />
+        </div>
+
+        <div class="pb-4">
+          <input
+            type="password"
+            required
+            class="bg-gray-50 border border-indigo-200 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            placeholder="Password"
+          />
+        </div>
+
+        <div class="flex items-start pb-4">
+          <div class="flex items-center h-5">
+            <input
+              id="remember"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 bg-gray-50 rounded border border-indigo-200 focus:ring-3 focus:ring-blue-300"
+              required
+            />
+          </div>
+          <label
+            for="remember"
+            class="flex ml-2 text-sm font-medium text-gray-900"
+          >
+            Remember me
+          </label>
+        </div>
+        <div class="">
+          <button
+            type="submit"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+          >
+            Login
+          </button>
+        </div>
+        <div class="text-center text-base font-medium pt-4">
+          <span
+            >New Member ?
+            <a class="text-blue-500 underline" href="/index.html"
+              >Creat Account</a
+            ></span
+          >
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
